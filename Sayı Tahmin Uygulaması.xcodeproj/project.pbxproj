@@ -16,6 +16,8 @@
 		04EE1D4C2AC5F92800F8C23E /* Say__Tahmin_Uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1D4B2AC5F92800F8C23E /* Say__Tahmin_Uygulamas_Tests.swift */; };
 		04EE1D562AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1D552AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITests.swift */; };
 		04EE1D582AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1D572AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITestsLaunchTests.swift */; };
+		04EE1D652AC5FC3900F8C23E /* TahminEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1D642AC5FC3900F8C23E /* TahminEkrani.swift */; };
+		04EE1D672AC5FC5100F8C23E /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1D662AC5FC5000F8C23E /* SonucEkraniVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04EE1D512AC5F92800F8C23E /* Sayı Tahmin UygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sayı Tahmin UygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE1D552AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmin_Uygulamas_UITests.swift; sourceTree = "<group>"; };
 		04EE1D572AC5F92800F8C23E /* Say__Tahmin_Uygulamas_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmin_Uygulamas_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04EE1D642AC5FC3900F8C23E /* TahminEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkrani.swift; sourceTree = "<group>"; };
+		04EE1D662AC5FC5000F8C23E /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				04EE1D3D2AC5F92700F8C23E /* Assets.xcassets */,
 				04EE1D3F2AC5F92800F8C23E /* LaunchScreen.storyboard */,
 				04EE1D422AC5F92800F8C23E /* Info.plist */,
+				04EE1D642AC5FC3900F8C23E /* TahminEkrani.swift */,
+				04EE1D662AC5FC5000F8C23E /* SonucEkraniVC.swift */,
 			);
 			path = "Sayı Tahmin Uygulaması";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EE1D672AC5FC5100F8C23E /* SonucEkraniVC.swift in Sources */,
+				04EE1D652AC5FC3900F8C23E /* TahminEkrani.swift in Sources */,
 				04EE1D392AC5F92600F8C23E /* ViewController.swift in Sources */,
 				04EE1D352AC5F92600F8C23E /* AppDelegate.swift in Sources */,
 				04EE1D372AC5F92600F8C23E /* SceneDelegate.swift in Sources */,
