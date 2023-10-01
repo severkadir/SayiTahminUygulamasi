@@ -72,62 +72,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kalan Hak : 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5n-dM-wj2">
-                                <rect key="frame" x="100" y="156" width="193" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="193" id="Oda-n5-U62"/>
-                                    <constraint firstAttribute="height" constant="44" id="UwG-aU-0VL"/>
-                                </constraints>
+                                <rect key="frame" x="112.66666666666667" y="156" width="167.66666666666663" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arttır" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-wV-ccJ">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arttır" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-wV-ccJ">
                                 <rect key="frame" x="143.33333333333334" y="254" width="106.33333333333334" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Tahmin Giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Vh-gn-dTN">
-                                <rect key="frame" x="82" y="390" width="228" height="73"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Tahmin Giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H26-Cr-gim">
+                                <rect key="frame" x="109" y="365" width="174" height="69"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="228" id="53y-Vg-dkG"/>
-                                    <constraint firstAttribute="height" constant="73" id="dnQ-Uy-5i1"/>
+                                    <constraint firstAttribute="width" constant="174" id="Qz6-g4-I61"/>
+                                    <constraint firstAttribute="height" constant="69" id="ppb-72-dVI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="2514"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuO-sr-RTY">
-                                <rect key="frame" x="95.666666666666686" y="565" width="202" height="66"/>
+                                <rect key="frame" x="116.33333333333333" y="475" width="160.33333333333337" height="50"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="202" id="0un-7F-05d"/>
-                                    <constraint firstAttribute="height" constant="66" id="6dD-4q-FGs"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="202" id="aoW-Y7-pVb"/>
+                                    <constraint firstAttribute="width" constant="160.33000000000001" id="2Xy-k1-2Mv"/>
+                                    <constraint firstAttribute="height" constant="50" id="59a-2U-bA6"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tahmin Et">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="tahminet:" destination="b1D-PE-goy" eventType="touchUpInside" id="WUf-85-aw6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pKU-Dh-fcg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="t5n-dM-wj2" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="0e4-N2-1OA"/>
-                            <constraint firstItem="t5n-dM-wj2" firstAttribute="top" secondItem="pKU-Dh-fcg" secondAttribute="top" constant="53" id="F5d-vq-L47"/>
-                            <constraint firstItem="fuO-sr-RTY" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="T15-Tm-zTi"/>
-                            <constraint firstItem="2Vh-gn-dTN" firstAttribute="top" secondItem="GSZ-wV-ccJ" secondAttribute="bottom" constant="76" id="Y4T-2H-WAt"/>
-                            <constraint firstItem="GSZ-wV-ccJ" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="gg8-Y3-hfV"/>
-                            <constraint firstItem="pKU-Dh-fcg" firstAttribute="trailing" secondItem="2Vh-gn-dTN" secondAttribute="trailing" constant="83" id="lTV-zy-4tb"/>
-                            <constraint firstItem="GSZ-wV-ccJ" firstAttribute="top" secondItem="t5n-dM-wj2" secondAttribute="bottom" constant="54" id="nwu-YR-fvb"/>
-                            <constraint firstItem="2Vh-gn-dTN" firstAttribute="leading" secondItem="pKU-Dh-fcg" secondAttribute="leading" constant="82" id="oEQ-Q2-n3S"/>
-                            <constraint firstItem="fuO-sr-RTY" firstAttribute="top" secondItem="2Vh-gn-dTN" secondAttribute="bottom" constant="102" id="wCL-sf-JMn"/>
+                            <constraint firstItem="H26-Cr-gim" firstAttribute="top" secondItem="GSZ-wV-ccJ" secondAttribute="bottom" constant="51" id="5CZ-27-WaG"/>
+                            <constraint firstItem="GSZ-wV-ccJ" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="BaN-mn-oKl"/>
+                            <constraint firstItem="pKU-Dh-fcg" firstAttribute="trailing" secondItem="H26-Cr-gim" secondAttribute="trailing" constant="110" id="W5b-51-0z6"/>
+                            <constraint firstItem="t5n-dM-wj2" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="Wdj-fz-Xk7"/>
+                            <constraint firstItem="H26-Cr-gim" firstAttribute="leading" secondItem="pKU-Dh-fcg" secondAttribute="leading" constant="109" id="c1q-H5-KJq"/>
+                            <constraint firstItem="fuO-sr-RTY" firstAttribute="top" secondItem="H26-Cr-gim" secondAttribute="bottom" constant="41" id="jPJ-gt-KSu"/>
+                            <constraint firstItem="fuO-sr-RTY" firstAttribute="centerX" secondItem="dSq-Kk-Lff" secondAttribute="centerX" id="keR-o6-Ctv"/>
+                            <constraint firstItem="GSZ-wV-ccJ" firstAttribute="top" secondItem="t5n-dM-wj2" secondAttribute="bottom" constant="62" id="tgL-2e-QWe"/>
+                            <constraint firstItem="t5n-dM-wj2" firstAttribute="top" secondItem="pKU-Dh-fcg" secondAttribute="top" constant="53" id="wm9-ET-YnB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Tahmin Ekranı" id="Fuc-De-Q4M"/>
                     <connections>
-                        <segue destination="269-c8-NhY" kind="show" id="11w-zH-d1d"/>
+                        <outlet property="labelKalanHak" destination="t5n-dM-wj2" id="y1C-Xc-AW9"/>
+                        <outlet property="labelYardim" destination="GSZ-wV-ccJ" id="Dqk-8W-ej8"/>
+                        <outlet property="textfieldGirdi" destination="H26-Cr-gim" id="4Pu-Y3-Mus"/>
+                        <segue destination="269-c8-NhY" kind="show" identifier="tahminToSonuc" id="11w-zH-d1d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWM-ao-gRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -181,6 +182,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fYe-Gq-iqe"/>
+                    <connections>
+                        <outlet property="imageViewSonuc" destination="bk5-b9-JHB" id="vUT-s8-VeY"/>
+                        <outlet property="labelSonuc" destination="HRG-uZ-92k" id="Xh3-J7-pWr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdr-w5-FFi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

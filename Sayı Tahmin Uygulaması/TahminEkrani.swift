@@ -8,22 +8,60 @@
 import UIKit
 
 class TahminEkrani: UIViewController {
-
+    
+    
+    @IBOutlet weak var labelKalanHak: UILabel!
+    @IBOutlet weak var labelYardim: UILabel!
+    @IBOutlet weak var textfieldGirdi: UITextField!
+    
+    var rastgeleSayi:Int?
+    var kalanHak = 5
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        rastgeleSayi = Int(arc4random_uniform(100)) //0 - 100
+        
+        print("Rastgele Sayı : \(rastgeleSayi!)")
+        
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tahminet(_ sender: Any) {
+        labelYardim.isHidden = false
+        kalanHak-=1
+        
+        if let veri = textfieldGirdi.text {
+            
+            if let tahmin = Int(veri) {
+                
+                if kalanHak != 0 {
+                    
+                    if tahmin == rastgeleSayi! {
+                        
+                    }
+                    
+                    if tahmin > rastgeleSayi! {
+                        labelYardim.text = "Azalt"
+                        labelKalanHak.text = "Kalan Hak : \(kalanHak)"
+                    }
+                    
+                    if tahmin < rastgeleSayi! {
+                        labelYardim.text = "Arttır"
+                        labelKalanHak.text = "Kalan Hak : \(kalanHak)"                    }
+                    
+                }else {
+                    
+                }
+                textfieldGirdi.text = ""
+                
+            }
+            
+        }
+        
     }
-    */
-
+    
 }

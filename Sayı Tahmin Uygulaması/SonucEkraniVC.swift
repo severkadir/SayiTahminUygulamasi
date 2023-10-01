@@ -8,22 +8,25 @@
 import UIKit
 
 class SonucEkraniVC: UIViewController {
-
+    
+    
+    
+    @IBOutlet weak var imageViewSonuc: UIImageView!
+    
+    @IBOutlet weak var labelSonuc: UILabel!
+    
+    var sonuc:Bool?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(sonuc!)
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
